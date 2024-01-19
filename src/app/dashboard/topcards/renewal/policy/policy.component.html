@@ -1,0 +1,245 @@
+<div
+  class="back"
+  style="margin-left: 100px; margin-top: 100px; cursor: pointer"
+>
+  <i class="fa-solid fa-chevron-left" routerLink="/renewal"></i>
+</div>
+
+<div
+  class="card shadow p-3 mb-5 bg-white"
+  style="margin-left: 100px; height: fit-content; width: 1100px"
+>
+  <div
+    class="card-header"
+    style="height: 100px; background-color: rgb(73, 73, 121)"
+  >
+    <div class="row justify-content-between">
+      <div class="col-4">
+        <div
+          class="rounded-circle border"
+          style="
+            width: 80px;
+
+            height: 80px;
+
+            background-image: url('../../../../../assets/jhonsmith.png');
+            background-position: center center;
+            background-size: cover;
+          "
+        ></div>
+
+        <div style="float: left; margin-top: -70px; margin-left: 120px">
+          <h2>{{ data.policyowner }}</h2>
+
+          <p class="phn">91799992926</p>
+        </div>
+      </div>
+
+      <div class="col-5">
+        <button type="button" class="btn btn-outline-light">
+          Send Payment Link
+        </button>
+        <i class="fa fa-pencil icon"></i>
+
+        <i class="fa fa-phone-volume icon"></i>
+
+        <i class="fa fa-envelope icon"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="padding-top: 20px">
+    <div class="row align-items-start">
+      <div class="col">
+        <p class="h4">Policy Number</p>
+        <p>
+          <strong>{{ data.policyno }}</strong>
+        </p>
+      </div>
+
+      <div class="col">
+        <p class="h4">Product Name</p>
+        <p>
+          <strong>{{ data.productname }}</strong>
+        </p>
+      </div>
+
+      <div class="col">
+        <p class="h4">Date of Issue</p>
+        <p>
+          <strong>{{ data.doi }}</strong>
+        </p>
+      </div>
+
+      <div class="col">
+        <p class="h4">Renewal Date</p>
+        <p>
+          <strong>{{ data.date }}</strong>
+        </p>
+      </div>
+
+      <div class="row align-items-start row2">
+        <div class="col">
+          <p class="h4">Policy Holder</p>
+          <p>
+            <strong>{{ data.policyholder }}</strong>
+          </p>
+        </div>
+
+        <div class="col">
+          <p class="h4">NRIC Number</p>
+          <p>
+            <strong>{{ data.nricno }}</strong>
+          </p>
+        </div>
+
+        <div class="col">
+          <p class="h4">Submission Date</p>
+          <p>
+            <strong>{{ data.subdate }}</strong>
+          </p>
+        </div>
+
+        <div class="col">
+          <p class="h4">Total Sum Insured</p>
+          <p>
+            <strong>{{ data.tsi }}</strong>
+          </p>
+        </div>
+      </div>
+
+      <div class="row align-items-start row3">
+        <div class="col">
+          <p class="h4">Address</p>
+          <p>
+            <strong>{{ data.address }}</strong>
+          </p>
+        </div>
+
+        <div class="col">
+          <p class="h4">Email</p>
+          <p>
+            <strong>{{ data.mail }}</strong>
+          </p>
+        </div>
+
+        <div class="col">
+          <p class="h4">Total Premium</p>
+          <p>
+            <strong>{{ data.tp }}</strong>
+          </p>
+        </div>
+
+        <div class="col">
+          <p class="h4">Amount Payable</p>
+          <p>
+            <strong>{{ data.amountpay }}</strong>
+          </p>
+        </div>
+
+        <div class="row align-items-start row4">
+          <div class="col">
+            <p class="h4">Period of Insurance</p>
+            <p>
+              <strong>{{ data.poi }}</strong>
+            </p>
+          </div>
+
+          <div class="col">
+            <p class="h4">Status</p>
+            <p>
+              <strong style="background-color: rgb(235, 245, 92)">{{
+                data.status
+              }}</strong>
+            </p>
+          </div>
+
+          <div class="col">
+            <p class="h4">Insured Policy Holder</p>
+            <p>
+              <strong>{{ data.policyholder }}</strong>
+            </p>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-left: 100px; width: 1100px">
+  <span><b>Policy Covered</b></span>
+  <button type="button" class="btn btn-outline-primary" style="float: right">
+    Cancel Policy
+  </button>
+</div>
+
+<div
+  class="card shadow p-3 mb-5 bg-white"
+  style="
+    margin-left: 100px;
+    height: fit-content;
+    width: 1100px;
+    margin-top: 50px;
+  "
+>
+  <table class="table table-striped">
+    <tbody>
+      <div class="row align-items-start">
+        <div class="col cl">
+          <p>Covid-19 Cover</p>
+        </div>
+
+        <div class="col cr">
+          <p>18 Years</p>
+        </div>
+
+        <div class="col cr2">
+          <p>25 Years</p>
+        </div>
+      </div>
+
+      <div class="row align-items-start">
+        <div class="col cl">
+          <p>Unlimited Lifetime Cover</p>
+        </div>
+
+        <div class="col cr">
+          <p>65 Years</p>
+        </div>
+
+        <div class="col cr2">
+          <p>65 Years</p>
+        </div>
+      </div>
+
+      <div class="row align-items-start">
+        <div class="col cl">
+          <p>Out Patient Benifit</p>
+        </div>
+
+        <div class="col cr">
+          <p>40 Years</p>
+        </div>
+
+        <div class="col cr2">
+          <p>Whole of Life</p>
+        </div>
+      </div>
+
+      <div class="row align-items-start">
+        <div class="col cl">
+          <p>UBest Hospitals at Affordable</p>
+        </div>
+
+        <div class="col cr">
+          <p>Single Pay, Regular Pay, Limited Pay: 5 Years to 39 Years</p>
+        </div>
+
+        <div class="col cr2">
+          <p>Whole of Life</p>
+        </div>
+      </div>
+    </tbody>
+  </table>
+</div>

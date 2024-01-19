@@ -1,0 +1,33 @@
+<div class="side-nav-content">
+  <div class="side-nav-button" (click)="SideNavToggled()">
+    <i class="fa-solid fa-greater-than fa-xs"></i>
+  </div>
+  <ul class="nav-list" [ngClass]="{ 'nav-list-open': sideNavStatus }">
+    <li class="nav-list-item" *ngFor="let item of list">
+      <i style="color: rgb(139, 139, 139)" class="{{ item.icon }}"></i>
+      <span>
+        <a href="{{ item.routeLink }}">{{ item.name }}</a>
+      </span>
+    </li>
+    <li>
+      <div
+        class="form-check form-switch"
+        style="margin-left: 10px; cursor: pointer; margin-top: 5px"
+      >
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          style="cursor: pointer"
+          id="flexSwitchCheckDefault"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDefault">
+          Dark Mode</label
+        >
+      </div>
+    </li>
+    <li class="logout">
+      <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,119 @@
+<div
+  class="card shadow-sm bg-white max11"
+  style="width: 450px; height: 140px; margin-left: -130px"
+>
+  <div class="card-body">
+    <span class="te">Today's Events</span>
+    <i class="fa-solid fa-cake-candles ico1"></i>
+    <div class="event-body">
+      <i class="fa-solid fa-users ico2"></i>
+      <p>+11 Birthdays</p>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-outline-primary btn-sm"
+      style="border-radius: 20px; margin-left: 320px; margin-top: -80px"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Send wishes
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form #userForm="ngForm" (ngSubmit)="onSubmit()" novalidate>
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">To</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Email Address"
+                name="email"
+                #email="ngModel"
+                pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                [(ngModel)]="userModel.email"
+                [class.is-invalid]="email.invalid && email.touched"
+                required
+              />
+              <div *ngIf="email.errors && (email.invalid || email.touched)">
+                <small class="text-danger" *ngIf="email.errors['required']"
+                  >Email is required</small
+                >
+                <small class="text-danger" *ngIf="email.errors['pattern']"
+                  >Enter valid Email</small
+                >
+              </div>
+              <hr />
+              <input
+                type="text"
+                class="form-control"
+                name="message"
+                #mssg="ngModel"
+                placeholder="Enter your message"
+                [(ngModel)]="userModel.mssg"
+                [class.is-invalid]="mssg.invalid && mssg.touched"
+                required
+              />
+              <div *ngIf="mssg.errors && (mssg.invalid || mssg.touched)">
+                <small class="text-danger" *ngIf="mssg.errors['required']"
+                  >Message cannot be empty</small
+                >
+              </div>
+              <p style="margin-top: 5px">Label</p>
+              <textarea
+                name="label"
+                class="form-control"
+                cols="30"
+                rows="10"
+                [(ngModel)]="userModel.label"
+                #label="ngModel"
+                [class.is-invalid]="mssg.invalid && mssg.touched"
+                required
+              ></textarea>
+              <div *ngIf="label.errors && (label.invalid || label.touched)">
+                <small class="text-danger" *ngIf="label.errors['required']"
+                  >Label cannot be empty</small
+                >
+              </div>
+            </div>
+            <div class="modal-footer align-center">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Discard
+              </button>
+              <button
+                type="submit"
+                class="btn btn-primary"
+                data-bs-dismiss="modal"
+                (click)="alertWithSuccess()"
+                [disabled]="userForm.invalid"
+              >
+                Send
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

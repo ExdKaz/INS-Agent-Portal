@@ -1,0 +1,113 @@
+.card{
+    
+}
+
+.card-title{
+    margin-top:10px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+input{
+    margin-top: -40px;
+    height: 35px;
+}
+
+.first-card{
+  background-color:rgb(24, 146, 234) ;
+  color: white;  
+  }
+
+.i-card{
+    height:60px;
+    padding: 5px;
+}
+
+.card-title-i{
+    margin: 0px;
+    padding-left: 12px;
+}
+
+.card-title-i2{
+    margin: 0px;
+    padding-left: 8px;
+}
+
+.met{
+    margin-top:15px;
+}
+
+.met1{
+    margin-top: 5px;
+}
+
+.met2{
+   margin-top: 5px; 
+}
+
+.fa-user-group{
+    color: rgb(0, 200, 255);
+    margin-right: 10px;
+}
+
+.ico1{
+    justify-content: start;
+    background-color:#179242;
+    width:30px;
+    height:30px;
+    border-radius:80%;
+    padding:7px;
+    margin-left:125px;
+    margin-top:0px;
+    color: #ffffff;
+  }
+
+  .ico2{
+    justify-content: start;
+    background-color:#b11f1f;
+    width:30px;
+    height:30px;
+    border-radius:80%;
+    padding:7px;
+    margin-left:10px;
+    margin-top:0px;
+    color: #ffffff;
+  }
+
+  .ico3{
+    justify-content: start;
+    background-color:#179242;
+    width:30px;
+    height:30px;
+    border-radius:80%;
+    padding:7px;
+    margin-left:133px;
+    margin-top:0px;
+    color: #ffffff;
+  }
+
+  .ico4{
+    justify-content: start;
+    background-color:#b11f1f;
+    width:30px;
+    height:30px;
+    border-radius:80%;
+    padding:7px;
+    margin-left:10px;
+    margin-top:0px;
+    color: #ffffff;
+  }
+
+  .time-1{
+    font-weight: 600;
+    margin-left:30px;
+    font-size: small;
+    color: rgb(0, 200, 255);
+  }
+
+  .time-2{
+    margin-left:30px;
+    font-weight: 600;
+    font-size: small;
+    color: rgb(0, 200, 255);
+  }

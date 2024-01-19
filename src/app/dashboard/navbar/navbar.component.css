@@ -1,0 +1,76 @@
+.shadow{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    
+}
+
+ .nav1{
+    display: flex;
+    
+} 
+
+
+.navbar-brand{
+    color: rgb(40, 40, 174);
+    font-weight: bold;
+    margin-left: 0px
+}
+
+.nav1{
+    margin-right: 400px;
+}
+
+.cir{
+    color: rgb(0, 162, 255);
+    font-size:5px;
+}
+
+.pull-right{
+   margin-left: -25px;
+}
+
+.d-flex{
+   margin-left: 300px;
+}
+
+.container-fluid{
+    padding-right: 0px;
+}
+
+.fa-bell{
+    margin-left:-70px;
+}
+
+.fa-user{
+    margin-left:20px;
+    
+}
+
+:host {
+    color: rgb(0, 200, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .demo-section + .demo-section {
+    margin-top: 16px;
+  }
+
+.search-icon{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 7px;
+    
+}
+
+.rounded-pill{
+    padding-left: 40px;
+    background-color: #ebedf6;
+}
+
+.search-btn{
+    background : transparent;
+    border: none;
+    color: #888888;
+}
+  

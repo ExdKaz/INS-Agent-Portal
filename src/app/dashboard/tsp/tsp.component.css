@@ -1,0 +1,20 @@
+.card{
+    margin-top: -27px;
+}
+
+#health {
+    accent-color:red;
+    
+}
+
+#covid-shield{
+    accent-color:green;
+}
+
+#cg-term-life{
+    accent-color:blue;
+}
+
+.tsp-title{
+    font-weight: 500;
+}

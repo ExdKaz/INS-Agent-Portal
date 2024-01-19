@@ -1,0 +1,397 @@
+{
+  "applicants": [
+    {
+      "id": "DC03",
+      "policyowner": "Isaiah Howard",
+      "prdtype": "Life Protect",
+      "date": "12-30-2021",
+      "status": "UW"
+    },
+    {
+      "id": "DC03",
+      "policyowner": "Isaiah Howard",
+      "prdtype": "Life Protect",
+      "date": "12-30-2021",
+      "status": "UW"
+    },
+    {
+      "id": "DC03",
+      "policyowner": "Isaiah Howard",
+      "prdtype": "Life Protect",
+      "date": "12-30-2021",
+      "status": "UW"
+    },
+    {
+      "id": "DC03",
+      "policyowner": "Isaiah Howard",
+      "prdtype": "Life Protect",
+      "date": "12-30-2021",
+      "status": "UW"
+    }
+  ],
+  "renewal": [
+    {
+      "policyowner": "Jhon Smith",
+      "productname": "Corona Kavach",
+      "doi": "10/02/2014",
+      "date": "10/02/2022",
+      "policyholder": "Jhon Smith",
+      "nricno": "102777511",
+      "subdate": "10/02/2014",
+      "tsi": "$200,000",
+      "address": "1553, mccandless",
+      "mail": "jhon@gmail.com",
+      "tp": "$1027",
+      "amountpay": "$1027",
+      "poi": "20 Years",
+      "status": "In Force",
+      "iph": "jhon smith",
+      "policyno": 100122312211,
+      "prdtype": "Protect Plus",
+      "validity": "12/09/2023",
+      "lastpaid": "Pay Now",
+      "contact": "(91)9824042777"
+    },
+    {
+      "policyowner": "Jhon Smith",
+      "productname": "Corona Kavach",
+      "doi": "10/02/2014",
+      "date": "10/02/2022",
+      "policyholder": "Jhon Smith",
+      "nricno": "102777511",
+      "subdate": "10/02/2014",
+      "tsi": "$200,000",
+      "address": "1553, mccandless",
+      "mail": "jhon@gmail.com",
+      "tp": "$1027",
+      "amountpay": "$1027",
+      "poi": "20 Years",
+      "status": "In Force",
+      "iph": "jhon smith",
+      "policyno": 100122312211,
+      "prdtype": "Protect Plus",
+      "validity": "12/09/2023",
+      "lastpaid": "Pay Now",
+      "contact": "(91)9824042777"
+    },
+    {
+      "policyowner": "Jhon Smith",
+      "productname": "Corona Kavach",
+      "doi": "10/02/2014",
+      "date": "10/02/2022",
+      "policyholder": "Jhon Smith",
+      "nricno": "102777511",
+      "subdate": "10/02/2014",
+      "tsi": "$200,000",
+      "address": "1553, mccandless",
+      "mail": "jhon@gmail.com",
+      "tp": "$1027",
+      "amountpay": "$1027",
+      "poi": "20 Years",
+      "status": "In Force",
+      "iph": "jhon smith",
+      "policyno": 100122312211,
+      "prdtype": "Protect Plus",
+      "validity": "12/09/2023",
+      "lastpaid": "Pay Now",
+      "contact": "(91)9824042777"
+    },
+    {
+      "policyowner": "Jhon Smith",
+      "productname": "Corona Kavach",
+      "doi": "10/02/2014",
+      "date": "10/02/2022",
+      "policyholder": "Jhon Smith",
+      "nricno": "102777511",
+      "subdate": "10/02/2014",
+      "tsi": "$200,000",
+      "address": "1553, mccandless",
+      "mail": "jhon@gmail.com",
+      "tp": "$1027",
+      "amountpay": "$1027",
+      "poi": "20 Years",
+      "status": "In Force",
+      "iph": "jhon smith",
+      "policyno": 100122312211,
+      "prdtype": "Protect Plus",
+      "validity": "12/09/2023",
+      "lastpaid": "Pay Now",
+      "contact": "(91)9824042777"
+    },
+    {
+      "policyowner": "Jhon Smith",
+      "productname": "Corona Kavach",
+      "doi": "10/02/2014",
+      "date": "10/02/2022",
+      "policyholder": "Jhon Smith",
+      "nricno": "102777511",
+      "subdate": "10/02/2014",
+      "tsi": "$200,000",
+      "address": "1553, mccandless",
+      "mail": "jhon@gmail.com",
+      "tp": "$1027",
+      "amountpay": "$1027",
+      "poi": "20 Years",
+      "status": "In Force",
+      "iph": "jhon smith",
+      "policyno": 100122312211,
+      "prdtype": "Protect Plus",
+      "validity": "12/09/2023",
+      "lastpaid": "Pay Now",
+      "contact": "(91)9824042777"
+    }
+  ],
+  "expired": [
+    {
+      "id": "212",
+      "name": "Kiriti Gupta",
+      "insurance": "Corona Kavach",
+      "contact": "(91)9824042777",
+      "status": "expired",
+      "date": "12/09/2023"
+    },
+    {
+      "id": "212",
+      "name": "John Smith",
+      "insurance": "Protect Plus",
+      "contact": "(91)9824042777",
+      "status": "expired",
+      "date": "12/09/2023"
+    },
+    {
+      "id": "212",
+      "name": "Kiriti Gupta",
+      "insurance": "Corona Kavach",
+      "contact": "(91)9824042777",
+      "status": "expired",
+      "date": "12/09/2023"
+    },
+    {
+      "id": "212",
+      "name": "John Smith",
+      "insurance": "Health Insurance",
+      "contact": "(91)9824042777",
+      "status": "expired",
+      "date": "12/09/2023"
+    },
+    {
+      "id": "212",
+      "name": "Kiriti Gupta",
+      "insurance": "Wealth Plus",
+      "contact": "(91)9824042777",
+      "status": "expired",
+      "date": "12/09/2023"
+    },
+    {
+      "id": "212",
+      "name": "John Smith",
+      "insurance": "Protect Plus",
+      "contact": "(91)9824042777",
+      "status": "expired",
+      "date": "12/09/2023"
+    },
+    {
+      "id": "212",
+      "name": "Kiriti Gupta",
+      "insurance": "Corona Kavach",
+      "contact": "(91)9824042777",
+      "status": "expired",
+      "date": "12/09/2023"
+    }
+  ],
+  "newLeads": [
+    {
+      "name": "Kiriti Gupta",
+      "lastcontacted": "2 days ago",
+      "product": "Team Insurance",
+      "email": "xyz@gmail.com",
+      "contact": "(91)9824042777",
+      "leadstage": "Contacted"
+    },
+    {
+      "name": "John Smith",
+      "lastcontacted": "2 days ago",
+      "product": "Team Insurance",
+      "email": "xyz@gmail.com",
+      "contact": "(91)9824042777",
+      "leadstage": "Interested"
+    },
+    {
+      "name": "Kiriti Gupta",
+      "lastcontacted": "2 days ago",
+      "product": "Team Insurance",
+      "email": "xyz@gmail.com",
+      "contact": "(91)9824042777",
+      "leadstage": "Qualified"
+    },
+    {
+      "name": "John Smith",
+      "lastcontacted": "2 days ago",
+      "product": "Team Insurance",
+      "email": "xyz@gmail.com",
+      "contact": "(91)9824042777",
+      "leadstage": "Contacted"
+    },
+    {
+      "name": "Kiriti Gupta",
+      "lastcontacted": "2 days ago",
+      "product": "Team Insurance",
+      "email": "xyz@gmail.com",
+      "contact": "(91)9824042777",
+      "leadstage": "Contacted"
+    },
+    {
+      "name": "John Smith",
+      "lastcontacted": "2 days ago",
+      "product": "Team Insurance",
+      "email": "xyz@gmail.com",
+      "contact": "(91)9824042777",
+      "leadstage": "Contacted"
+    },
+    {
+      "name": "Kiriti Gupta",
+      "lastcontacted": "2 days ago",
+      "product": "Team Insurance",
+      "email": "xyz@gmail.com",
+      "contact": "(91)9824042777",
+      "leadstage": "Contacted"
+    }
+  ],
+  "totalApplications": [
+    {
+      "policyowner": "Kiriti Gupta",
+      "lifeinsured": "Kiriti Gupta",
+      "producttype": "Corona Kavach",
+      "applino": "240427",
+      "date": "10/09/2023",
+      "sa": "100,000.00",
+      "status": "UW"
+    },
+    {
+      "policyowner": "Jhon Smith",
+      "lifeinsured": "Jhon Smith",
+      "producttype": "Protect Plus",
+      "applino": "918240",
+      "date": "12/09/2023",
+      "sa": "100,000.00",
+      "status": "UW"
+    },
+    {
+      "policyowner": "Kiriti Gupta",
+      "lifeinsured": "Kiriti Gupta",
+      "producttype": "Corona Kavach",
+      "applino": "240427",
+      "date": "10/09/2023",
+      "sa": "100,000.00",
+      "status": "UW"
+    },
+    {
+      "policyowner": "Jhon Smith",
+      "lifeinsured": "Jhon Smith",
+      "producttype": "Protect Plus",
+      "applino": "918240",
+      "date": "12/09/2023",
+      "sa": "100,000.00",
+      "status": "UW"
+    },
+    {
+      "policyowner": "Kiriti Gupta",
+      "lifeinsured": "Kiriti Gupta",
+      "producttype": "Corona Kavach",
+      "applino": "240427",
+      "date": "10/09/2023",
+      "sa": "100,000.00",
+      "status": "Rejected"
+    },
+    {
+      "policyowner": "Jhon Smith",
+      "lifeinsured": "Jhon Smith",
+      "producttype": "Protect Plus",
+      "applino": "918240",
+      "date": "12/09/2023",
+      "sa": "100,000.00",
+      "status": "UW approved"
+    },
+    {
+      "policyowner": "Kiriti Gupta",
+      "lifeinsured": "Kiriti Gupta",
+      "producttype": "Corona Kavach",
+      "applino": "240427",
+      "date": "10/09/2023",
+      "sa": "100,000.00",
+      "status": "UW"
+    }
+  ],
+  "policydetails": [
+    {
+      "policyowner": "Jhon Smith",
+      "policyno": "102777511",
+      "productname": "Corona Kavach",
+      "doi": "10/02/2014",
+      "date": "10/02/2022",
+      "policyholder": "Jhon Smith",
+      "nricno": "102777511",
+      "subdate": "10/02/2014",
+      "tsi": "$200,000",
+      "address": "1553, mccandless",
+      "mail": "jhon@gmail.com",
+      "tp": "$1027",
+      "amountpay": "$1027",
+      "poi": "20 Years",
+      "status": "In Force",
+      "iph": "jhon smith"
+    }
+  ],
+  "cgprotectList": [
+    {
+      "ec": "MIN AGE AT ENTRY",
+      "lifeoption": "18 Years",
+      "income": "18 Years",
+      "llp": "25 Years"
+    },
+    {
+      "ec": "MAX AGE AT ENTRY",
+      "lifeoption": "65 Years",
+      "income": "65 Years",
+      "llp": "65 Years"
+    },
+    {
+      "ec": "MIN POLICY TERM",
+      "lifeoption": "(85 Years-Age at Entry)",
+      "income": "40 Years",
+      "llp": "Whole of Life"
+    },
+    {
+      "ec": "PREMIUM PAYMENT MODE",
+      "lifeoption": "Single Pay, Regular Pay, Limited Pay:5yrs to 84",
+      "income": "Single Pay, Regular Pay, Limited Pay:5yrs to 39 years",
+      "llp": "Whole of Life"
+    },
+    {
+      "ec": "PREMIUM PAYMENT",
+      "lifeoption": "Single, Annual, Semi Annual, Quaterly, Monthly",
+      "income": "Single, Annual, Semi Annual, Quaterly, Monthly",
+      "llp": "Limited Pay:(65-Age Entry or (75-Age Entry)"
+    }
+  ],
+  "events": [
+    {
+      "email": "john.smith@gmail.com",
+      "mssg": "Wishing you a very happy birthday",
+      "label": "Happy Birthday! Wishing you many more years of good health and prosperity.",
+      "id": 1
+    },
+    {
+      "email": "kriti.gupta@gmail.com",
+      "mssg": "Wishing you a very happy birthday",
+      "label": "Happy Birthday! Wishing you many more years of good health and prosperity.",
+      "id": 2
+    },
+    {
+      "email": "jhon.smith@xyz.com",
+      "mssg": "Happy Birthday!",
+      "label": "Happy Birthday......",
+      "id": 3
+    }
+  ]
+}

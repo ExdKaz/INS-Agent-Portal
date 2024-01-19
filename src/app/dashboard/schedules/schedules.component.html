@@ -1,0 +1,55 @@
+<div>
+  <div>
+    <div
+      class="card shadow-sm p-2 bg-white"
+      style="width: 450px; margin-top: 20px; margin-left: -130px"
+    >
+      <div class="card-title">Today's Schedule</div>
+      <div class="d-flex justify-content-end">
+        <input
+          type="date"
+          name="dategiven"
+          id="dategiven"
+          placeholder="name"
+          [(ngModel)]="selectedDate"
+          (ngModelChange)="updateDates()"
+          [(ngModel)]="selectedDateString"
+          (ngModelChange)="updateSelectedDate()"
+        />
+      </div>
+
+      <div class="card-body">
+        <div class="row flex-nowrap overflow-auto" style="padding: 1%">
+          <div class="col-md-2" *ngFor="let date of dates; let i = index">
+            <div
+              class="card p-0"
+              style="width: 60px"
+              [ngClass]="{
+                'first-card': dates[i].getTime() === selectedDate.getTime()
+              }"
+            >
+              <div class="card-body i-card">
+                <div class="card-title-i">{{ date | date : "dd" }}</div>
+                <div class="card-title-i2">{{ date | date : "EEE" }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="met">
+          <div class="met1">
+            <i class="fa-solid fa-user-group"></i>Meeting with Ron Harris
+            <i class="fa-solid fa-phone ico1"></i>
+            <i class="fa-solid fa-video ico2"></i>
+            <span class="time-1">04:00 PM</span>
+          </div>
+          <div class="met2">
+            <i class="fa-solid fa-user-group"></i>Meeting with Harry Dar
+            <i class="fa-solid fa-phone ico3"></i>
+            <i class="fa-solid fa-video ico4"></i>
+            <span class="time-2">06:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

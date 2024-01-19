@@ -1,0 +1,160 @@
+<div
+  class="back"
+  style="margin-left: 100px; margin-top: 100px; cursor: pointer"
+>
+  <i class="fa-solid fa-chevron-left" routerLink="/newleads"></i>
+</div>
+
+<div
+  class="card shadow p-3 mb-5 bg-white"
+  style="margin-left: 100px; height: 350px; width: 1100px"
+>
+  <div
+    class="card-header"
+    style="height: 100px; background-color: rgb(73, 73, 121)"
+  >
+    <div class="row justify-content-between">
+      <div class="col-4">
+        <div
+          class="rounded-circle border"
+          style="
+            width: 80px;
+
+            height: 80px;
+
+            background-image: url('../../../../../assets/k.png');
+            background-position: center center;
+            background-size: cover;
+          "
+        ></div>
+
+        <div style="float: left; margin-top: -70px; margin-left: 120px">
+          <h2>{{ data.name }}</h2>
+
+          <p class="phn">91799992926</p>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <i class="fa fa-pencil icon"></i>
+
+        <i class="fa fa-phone-volume icon"></i>
+
+        <i class="fa fa-envelope icon"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="padding-top: 20px">
+    <div class="row align-items-start">
+      <div class="col">
+        <p class="h4">Product</p>
+
+        <p>
+          <strong>{{ data.product }}</strong>
+        </p>
+      </div>
+
+      <div class="col">
+        <p class="h4">Applicants Name</p>
+
+        <p>
+          <strong>{{ data.name }}</strong>
+        </p>
+      </div>
+
+      <div class="col">
+        <p class="h4">Premium</p>
+
+        <p><strong>$350-400</strong></p>
+      </div>
+    </div>
+
+    <div class="row align-items-start">
+      <div class="col">
+        <p class="h4">Email</p>
+
+        <p><strong>123@gmail.com</strong></p>
+      </div>
+
+      <div class="col">
+        <p class="h4">Status</p>
+
+        <p>
+          <strong>{{ data.status }}</strong>
+        </p>
+        <p><strong>Contacted</strong></p>
+      </div>
+
+      <div class="col">
+        <p class="h4">Submission date</p>
+        <p><strong>123@gmail.com</strong></p>
+        <p>
+          <strong>{{ data.date }}</strong>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <button
+        type="button"
+        class="btn btn-outline-primary"
+        routerLink="/quotation"
+      >
+        Send Payment Link
+      </button>
+    </div>
+  </div>
+</div>
+
+<div
+  class="card shadow p-3 mb-5 bg-white"
+  style="margin-left: 100px; height: 100px; width: 1100px"
+>
+  <div class="card-title">Gender</div>
+  <div class="card-body" style="display: flex">
+    <div class="form-check">
+      <input
+        type="radio"
+        class="form-check-input"
+        id="radio1"
+        name="optradio"
+        value="option1"
+        checked
+      />Contacted
+      <label class="form-check-label" for="radio1"></label>
+    </div>
+    <div class="form-check">
+      <input
+        type="radio"
+        class="form-check-input"
+        id="radio2"
+        name="optradio"
+        value="option2"
+      />Interested
+      <label class="form-check-label" for="radio2"></label>
+    </div>
+    <div class="form-check">
+      <input
+        type="radio"
+        class="form-check-input"
+        id="radio3"
+        name="optradio"
+        value="option3"
+      />Qualified
+      <label class="form-check-label" for="radio3"></label>
+    </div>
+    <div class="form-check">
+      <input
+        type="radio"
+        class="form-check-input"
+        id="radio4"
+        name="optradio"
+        value="option4"
+      />Rejected
+      <label class="form-check-label" for="radio4"></label>
+    </div>
+    <div class="savebtn" style="margin-left: -120px">
+      <button type="button" class="btn btn-primary btn-sm">Save</button>
+    </div>
+  </div>
+</div>

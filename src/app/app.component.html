@@ -1,0 +1,12 @@
+<app-navbar></app-navbar>
+
+<main>
+  <app-sidebar
+    class="shadow-sm"
+    [sideNavStatus]="sideNavStatus"
+    [ngClass]="{ 'app-side-nav-open': sideNavStatus }"
+    (sideNavToggled)="sideNavStatus = $event"
+  ></app-sidebar>
+</main>
+
+<router-outlet></router-outlet>

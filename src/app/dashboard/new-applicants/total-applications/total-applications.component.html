@@ -1,0 +1,72 @@
+<div style="margin-left: 100px; margin-top: 80px; cursor: pointer">
+  <i class="fa-solid fa-chevron-left" routerLink=""></i>Total Applications
+</div>
+
+<div>
+  <div class="dropdown" style="margin-left: 100px; margin-top: 40px">
+    <button
+      class="btn dropdown-toggle"
+      type="button"
+      style="background-color: azure"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+    >
+      All policies
+    </button>
+
+    <ul class="dropdown-menu" style="border-radius: 15px">
+      <li><a class="dropdown-item" href="#">Health</a></li>
+
+      <li><a class="dropdown-item" href="#">Documents</a></li>
+
+      <li><a class="dropdown-item" href="#">Gallery</a></li>
+    </ul>
+  </div>
+</div>
+<div
+  class="card shadow p-3 mb-5 bg-white"
+  style="margin-top: 40px; width: 1000px; margin-left: 100px"
+>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">NAME</th>
+
+        <th scope="col">LAST CONTACTED</th>
+
+        <th scope="col">PRODUCT</th>
+
+        <th scope="col">EMAIL</th>
+
+        <th scope="col">CONTACT</th>
+
+        <th scope="col">LEAD STAGE</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr
+        appClickableTableRow
+        data-href="/applicantdetail"
+        [data]="item"
+        *ngFor="let item of totalappliList"
+      >
+        <td>{{ item.policyowner }}</td>
+
+        <td>{{ item.lifeinsured }}</td>
+
+        <td>{{ item.producttype }}</td>
+
+        <td>{{ item.applino }}</td>
+
+        <td>{{ item.date }}</td>
+
+        <td>{{ item.sa }}</td>
+
+        <td>{{ item.status }}</td>
+
+        <td><i class="fa-regular fa-envelope" aria-hidden="true"></i></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

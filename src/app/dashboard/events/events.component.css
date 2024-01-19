@@ -1,0 +1,90 @@
+.max11{
+    margin-top: 20px;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.2);
+}
+
+.te{
+    font-weight:500;
+}
+
+.event-body{
+    margin-top:20px;
+}
+
+.fa-cake-candles{
+    margin-left: 280px;
+    color: rgb(65, 182, 255);
+}
+
+.fa-users{
+    margin-left:7px;
+}
+
+.ico1{
+
+    background-color:#e8e8e8;
+    width:30px;
+    height:30px;
+    border-radius:80%;
+    padding:8px;
+    color: #26beff;
+  }
+
+  .ico2{
+
+    background-color:#e8e8e8;
+    width:30px;
+    height:30px;
+    border-radius:80%;
+    padding:5px;
+    color: #091276;
+  }
+
+::ng-deep .swal2-container.swal2-bottom>.swal2-popup {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+    align-self: end;
+    width:650px;
+    height: 130px;
+}
+
+::ng-deep .swal2-styled.swal2-confirm {
+    border: 0;
+    height: 40px;
+    width: 95%;
+    padding: 7px 10px 7px 10px;
+    background: initial;
+    border-radius: 25px;
+    background-color: #42acef;
+    color: #fff;
+    /* margin-top: -10px; */
+    font-size: 16px;
+}
+
+::ng-deep .swal2-title {
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0.8em 1em 0;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+    word-wrap: break-word;
+}
+
+::ng-deep .swal2-actions {
+    display: flex;
+    z-index: 1;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 1.25em auto 0;
+    margin-top: 0px;
+    margin-left: 160px;
+    padding: 0;
+}

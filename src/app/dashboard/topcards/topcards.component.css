@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float: right;
+    width: 25%;
+    padding: 0 5px;
+}
+
+.row{
+    margin: 0px;
+}
+
+.row{
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: 124px;
+}
+.card{
+    
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height: 6rem;
+    width: 7rem;
+    margin-top: 70px;
+    margin-left: 5px;
+}
+
+
+.size{
+    font-size: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(6, 3, 38);
+}
+
+
+.fa-floppy-disk{
+    margin-left:7px;
+    color: #ff7b0e;
+}
+
+.fa-arrows-spin{
+    margin-left:7px;
+    color: #ff7b0e;
+}
+
+.fd2{
+    margin-left:7px;
+    color: #5cffd6;
+}
+
+.fa-arrow-trend-up{
+    margin-left:7px;
+    color: #5cffd6;
+}
+
+.next-btn{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -60px;
+}
+
+.fa-angle-right{
+    
+    color: rgb(21, 148, 244);
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding-top:15px;
+    padding-left: 9px;
+    margin-left: -10px;
+}

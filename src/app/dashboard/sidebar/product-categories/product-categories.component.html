@@ -1,0 +1,592 @@
+<div style="margin-top: 50px; margin-left: 50px">
+  <div>
+    <img
+      src="https://images.pexels.com/photos/38302/father-daughter-beach-sea-38302.jpeg"
+      style="height: 250px; width: 100%"
+      alt="im"
+    />
+  </div>
+</div>
+
+<div>
+  <form
+    class="d-flex"
+    role="search"
+    style="margin-top: -200px; width: 400px; margin-left: 70px"
+  >
+    <input
+      class="form-control me-2"
+      type="search"
+      placeholder="Search"
+      style="border-radius: 40px"
+      aria-label="Search"
+    />
+
+    <button
+      class="btn btn-outline-success"
+      style="border-radius: 30px"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card card1 shadow p-3 mb-5 rounded">
+      <i class="fa-solid fa-plane ico"></i>
+      <h3 class="size">Travel Insurance</h3>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card card1 d shadow p-3 mb-5 rounded">
+      <i class="fa-solid fa-heart-pulse ico"></i>
+      <h3 class="size" routerLink="/health">Health Insurance</h3>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card card1 shadow p-3 mb-5 rounded">
+      <i class="fa-regular fa-heart ico"></i>
+      <h3 class="size">Life<br />Insurance</h3>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card card1 shadow p-3 mb-5 rounded">
+      <i class="fa-solid fa-house ico"></i>
+      <h3 class="size">Home<br />Insurance</h3>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card card1 shadow p-3 mb-5 rounded">
+      <i class="fa-solid fa-car-side ico"></i>
+      <h3 class="size">Car<br />Insurance</h3>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card card1 shadow p-3 mb-5 rounded">
+      <i class="fa-solid fa-dog ico"></i>
+      <h3 class="size">Pet<br />Insurance</h3>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: -60px; margin-left: 70px; font-size: 13px">
+  <b>Trending Insurance Plans</b> <br />
+
+  Insurance Plans and policies by CG Insurance
+
+  <button
+    type="button"
+    class="btn btn-outline-primary cmp"
+    routerLink="/compare"
+    (click)="show = !show"
+  >
+    {{ show ? "Cancel" : "Compare" }}
+  </button>
+</div>
+
+<div class="row1">
+  <div class="column1">
+    <div class="card card2">
+      <div class="card card3 shadow">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+            *ngIf="show"
+            (change)="checked = !checked"
+          />
+          <i class="fa-brands fa-square-whatsapp"></i>
+        </div>
+
+        <p>CG Protect</p>
+
+        <p style="font-size: small">
+          With the world in the midst of a pandemic, You're having to deal with
+          increased uncertainties on daily basis.
+        </p>
+      </div>
+
+      <div
+        style="
+          width: 150px;
+          height: 30px;
+          border-radius: 20px;
+          display: flex;
+          margin-top: 20px;
+          justify-content: space-between;
+        "
+      >
+        <button class="btn btn-primary">QUOTE</button>
+
+        <button
+          style="
+            margin-left: 70px;
+            border: none;
+            background-color: white;
+            cursor: pointer;
+          "
+          routerLink="/cgprotect"
+        >
+          VIEW
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card card2">
+      <div class="card card3 shadow">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault2"
+            *ngIf="show"
+            (change)="checked2 = !checked2"
+          />
+          <i class="fa-brands fa-square-whatsapp"></i>
+        </div>
+
+        <p>CG Mediclaim</p>
+
+        <p style="font-size: small">
+          With the world in the midst of a pandemic, You're having to deal with
+          increased uncertainties on daily basis.
+        </p>
+      </div>
+
+      <div
+        style="
+          width: 150px;
+          height: 30px;
+          border-radius: 20px;
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-between;
+        "
+      >
+        <button class="btn btn-primary">QUOTE</button>
+
+        <button
+          style="
+            margin-left: 70px;
+            border: none;
+            background-color: white;
+            cursor: pointer;
+          "
+        >
+          VIEW
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card card2">
+      <div class="card card3 shadow">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault3"
+            *ngIf="show"
+            (change)="checked3 = !checked3"
+          />
+          <i class="fa-brands fa-square-whatsapp"></i>
+        </div>
+
+        <p>Covid Care</p>
+
+        <p style="font-size: small">
+          With the world in the midst of a pandemic, You're having to deal with
+          increased uncertainties on daily basis.
+        </p>
+      </div>
+
+      <div
+        style="
+          width: 150px;
+          margin-top: 20px;
+          height: 30px;
+          border-radius: 20px;
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-between;
+        "
+      >
+        <button class="btn btn-primary">QUOTE</button>
+
+        <button
+          style="
+            margin-left: 70px;
+            border: none;
+            background-color: white;
+            cursor: pointer;
+          "
+        >
+          VIEW
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card card2">
+      <div class="card card3 shadow">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault4"
+            *ngIf="show"
+            (change)="checked4 = !checked4"
+          />
+          <i class="fa-brands fa-square-whatsapp"></i>
+        </div>
+
+        <p>Life Protect</p>
+
+        <p style="font-size: small">
+          With the world in the midst of a pandemic, You're having to deal with
+          increased uncertainties on daily basis.
+        </p>
+      </div>
+
+      <div
+        style="
+          width: 150px;
+          height: 30px;
+          border-radius: 20px;
+          display: flex;
+          margin-top: 20px;
+          justify-content: space-between;
+        "
+      >
+        <button class="btn btn-primary">QUOTE</button>
+
+        <button
+          style="
+            margin-left: 70px;
+            border: none;
+            background-color: white;
+            cursor: pointer;
+          "
+        >
+          VIEW
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card" style="margin-left: 60px; margin-top: -50px" *ngIf="!show">
+  <div class="card-body">
+    <ul>
+      <li>
+        Get fixed lump sum payout irrespective of the actual expenses incurred
+        for diag
+      </li>
+
+      <li>
+        Make Multiple Claims for same or diffrent conditions or procedures.
+      </li>
+
+      <li>Indexation benefit to stay ahead of medical inflation.</li>
+    </ul>
+  </div>
+</div>
+
+<div style="margin-left: 110px; display: flex; margin-top: 20px">
+  <div *ngIf="checked" style="width: 25%">
+    COVERAGE
+    <table
+      class="table rounded-top shadow p-3 mb-5 rounded"
+      style="margin-top: 20px; background-color: rgb(57, 57, 116)"
+    >
+      <thead style="height: 80px">
+        <p style="color: white; margin: 25px 0px 0px 10px">Hospital Access</p>
+      </thead>
+      <tbody style="background-color: white">
+        <tr>
+          <td>Emergency medical evacuation</td>
+        </tr>
+
+        <tr>
+          <td>Access private hospital accomodation</td>
+        </tr>
+
+        <tr>
+          <td>Accidental injury benifit</td>
+        </tr>
+
+        <tr>
+          <td>Back, neck and spine</td>
+        </tr>
+
+        <tr>
+          <td>Blood</td>
+        </tr>
+
+        <tr>
+          <td>Bone, joint and muscle</td>
+        </tr>
+
+        <tr>
+          <td>Brest surgery (medically ecessary)</td>
+        </tr>
+
+        <tr>
+          <td>Cataracts</td>
+        </tr>
+
+        <tr>
+          <td>Covid-19 cover</td>
+        </tr>
+
+        <tr>
+          <td>Assisted reproductive cover</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div *ngIf="checked" style="width: 15%; margin-left: 20px">
+    CG PROTECT
+    <table
+      class="table rounded-top shadow p-3 mb-5 rounded"
+      style="margin-top: 20px; background-color: rgb(57, 57, 116)"
+    >
+      <thead style="height: 80px">
+        <span style="color: white; margin-left: 10px">$500-800</span>
+        <i class="fa-solid fa-download"></i>
+        <button type="button" class="btn btn-light btn-sm rounded-pill">
+          Get Quote
+        </button>
+      </thead>
+      <tbody style="background-color: white">
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-xmark fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-xmark fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div *ngIf="checked2" style="width: 15%; margin-left: 20px">
+    CG MEDICLAIM
+    <table
+      class="table rounded-top shadow p-3 mb-5 rounded"
+      style="margin-top: 20px; background-color: rgb(57, 57, 116)"
+    >
+      <thead style="height: 80px">
+        <span style="color: white; margin-left: 10px">$500-800</span>
+        <i class="fa-solid fa-download"></i>
+        <button type="button" class="btn btn-light btn-sm rounded-pill">
+          Get Quote
+        </button>
+      </thead>
+      <tbody style="background-color: white">
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-xmark fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-xmark fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div *ngIf="checked3" style="width: 15%; margin-left: 20px">
+    COVID CARE
+    <table
+      class="table rounded-top shadow p-3 mb-5 rounded"
+      style="margin-top: 20px; background-color: rgb(57, 57, 116)"
+    >
+      <thead style="height: 80px">
+        <span style="color: white; margin-left: 10px">$500-800</span>
+        <i class="fa-solid fa-download"></i>
+        <button type="button" class="btn btn-light btn-sm rounded-pill">
+          Get Quote
+        </button>
+      </thead>
+      <tbody style="background-color: white">
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-xmark fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-xmark fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div *ngIf="checked4" style="width: 15%; margin-left: 20px">
+    LIFE PROTECT
+    <table
+      class="table rounded-top shadow p-3 mb-5 rounded"
+      style="margin-top: 20px; background-color: rgb(57, 57, 116)"
+    >
+      <thead style="height: 80px">
+        <span style="color: white; margin-left: 10px">$500-800</span>
+        <i class="fa-solid fa-download"></i>
+        <button type="button" class="btn btn-light btn-sm rounded-pill">
+          Get Quote
+        </button>
+      </thead>
+      <tbody style="background-color: white">
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-xmark fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-xmark fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa-regular fa-circle-check fa-lg"></i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

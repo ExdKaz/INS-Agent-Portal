@@ -1,0 +1,48 @@
+.icon{
+
+    background-color:#fff;
+    
+    font-size:20px;
+    
+    width:40px;
+    
+    height:40px;
+    
+    border-radius:80%;
+    
+    padding:10px;
+    
+    margin-left:20px;
+    
+    margin-top:15px;
+    
+    }
+
+    .cl{
+        font-weight:normal;
+        color:rgb(165, 165, 165);
+    }
+    .cr2{
+        text-align:center;
+    }
+
+
+    h2{
+    color:white;
+    }
+    
+    .phn{
+    color:white;
+    }
+    
+    .h4{
+    font-size:large;
+    color:rgb(105,105,105);
+    }
+
+.row2,.row3,.row4{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}

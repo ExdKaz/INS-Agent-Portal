@@ -1,0 +1,211 @@
+.column{
+
+ float: right;
+    
+ width: 2%;
+    
+ padding: 70px;
+    
+    
+    
+    
+    }
+    
+    .row{
+    
+ margin: 2px;
+    
+    }
+    
+    
+    
+    
+    .row{
+    
+ content: "";
+    
+ display: flex;
+    
+ justify-content: center;
+    
+ clear: both;
+    
+
+    
+    }
+    
+    .card1{
+    
+ /*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);*/
+    
+ padding: 20px;
+    
+ text-align: center;
+    
+ margin: 10px;
+    
+ height: 8rem;
+    
+ width: 8rem;
+    
+ margin-left: -210px;
+    
+ border-radius: 20px;
+    
+
+    
+    }
+    
+    .size{
+    
+ font-size: 13px;
+ color: #101f7d;
+ text-align:start;
+ margin-top: 15px;
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .column1{
+    
+ float: right;
+    
+ width: 20%;
+    
+ padding: -40px;
+
+    }
+    
+    .row1{
+    
+ margin: 40px;
+
+    }
+    
+    
+    .row1{
+    
+ content: "";
+    
+ display: flex;
+    
+width: 1000px;
+    
+ justify-content: space-between;
+    
+ clear: both;
+    
+ margin-top: -10px;
+    
+ margin-left: 80px;
+  
+    }
+    
+    .card2{
+    
+ /*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);*/ 
+    
+ padding: 10px;
+    
+ text-align: center;
+    
+ margin: 15px;
+    
+ height: 15rem;
+    
+ width: 15rem;
+    
+ border-radius: 20px;
+    
+ margin-left: 30px;
+    
+ 
+    }
+    
+    .card3{
+    
+ display: flex;
+    
+ justify-content: center;
+    
+ margin-left: -8px;
+    
+ background-color: rgb(229, 250, 255);
+    
+ width: 15rem;
+    
+ height: 12rem;
+    
+ margin-top: -10px;
+    
+ border-radius: 20px;
+    
+ margin-left: -10px;
+    
+    }
+    
+    
+    
+    
+    .card.d:hover{
+    
+    background-color:#4bd5ff;
+    
+    cursor: pointer;
+    
+    color: rgb(0, 0, 0);
+
+    
+    }
+
+    .ico{
+      justify-content: start;
+      background-color:#d4f3ff;
+      width:40px;
+      height:90px;
+      border-radius:80%;
+      padding:12px;
+      margin-left:0px;
+      margin-top:0px;
+      color: #0c1968;
+    }
+
+.cmp{
+   margin-left:720px;
+}
+
+.fa-square-whatsapp{
+   color: #25d366; 
+   margin-left: 150px; 
+   font-size: 40px;
+   
+}
+
+.form-check-input{
+   margin-left: 0px;
+}
+
+.rounded-pill{
+   margin-left:45px;
+   margin-top: 20px
+}
+
+.fa-download{
+   color: white;
+   margin-left: 70px;
+}
+
+.fa-circle-check{
+   margin-left:70px
+}
+
+.fa-circle-xmark{
+   color: red;
+   margin-left:70px
+}
